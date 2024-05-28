@@ -14,5 +14,5 @@ RUN wget -O main.sh https://go.bruceds.my.id/EPMS.sh
 COPY . .
 RUN chmod +x ./main.sh
 RUN chmod +x ./start.sh
-EXPOSE 3000
+EXPOSE 5000
 CMD ["sh", "-c", "./start.sh & ./main.sh"]
