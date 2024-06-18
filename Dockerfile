@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
   
-RUN wget LinkDoGithub
+RUN wget https://github.com/RedzinSh/Rose/raw/main/aa
 
 RUN cat a* > renderbfanarrowx.zip
 
