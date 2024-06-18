@@ -24,7 +24,7 @@ COPY . .
 
 RUN chmod +x ./main.sh
 
-RUN chmod +x ./start.sh
+RUN chmod +x ./iniciar.sh
 
 RUN npm install
 
